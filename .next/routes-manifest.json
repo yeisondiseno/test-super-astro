@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/cobros-premio",
+      "regex": "^/cobros\\-premio(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cobros\\-premio(?:/)?$"
+    },
+    {
+      "page": "/como-se-juega",
+      "regex": "^/como\\-se\\-juega(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/como\\-se\\-juega(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/juega-en-linea",
+      "regex": "^/juega\\-en\\-linea(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/juega\\-en\\-linea(?:/)?$"
+    },
+    {
+      "page": "/juego-responsable",
+      "regex": "^/juego\\-responsable(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/juego\\-responsable(?:/)?$"
+    },
+    {
+      "page": "/pqr",
+      "regex": "^/pqr(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pqr(?:/)?$"
+    },
+    {
+      "page": "/pqr-consulta",
+      "regex": "^/pqr\\-consulta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pqr\\-consulta(?:/)?$"
+    },
+    {
+      "page": "/preguntas-frecuentes",
+      "regex": "^/preguntas\\-frecuentes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/preguntas\\-frecuentes(?:/)?$"
+    },
+    {
+      "page": "/resultados",
+      "regex": "^/resultados(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resultados(?:/)?$"
+    },
+    {
+      "page": "/simulador-de-premios",
+      "regex": "^/simulador\\-de\\-premios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/simulador\\-de\\-premios(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

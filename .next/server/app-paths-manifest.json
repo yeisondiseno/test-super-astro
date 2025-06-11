@@ -1,0 +1,16 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/api/excel/route": "app/api/excel/route.js",
+  "/api/data/route": "app/api/data/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/pqr-consulta/page": "app/pqr-consulta/page.js",
+  "/pqr/page": "app/pqr/page.js",
+  "/page": "app/page.js",
+  "/cobros-premio/page": "app/cobros-premio/page.js",
+  "/como-se-juega/page": "app/como-se-juega/page.js",
+  "/juega-en-linea/page": "app/juega-en-linea/page.js",
+  "/resultados/page": "app/resultados/page.js",
+  "/preguntas-frecuentes/page": "app/preguntas-frecuentes/page.js",
+  "/juego-responsable/page": "app/juego-responsable/page.js",
+  "/simulador-de-premios/page": "app/simulador-de-premios/page.js"
+}

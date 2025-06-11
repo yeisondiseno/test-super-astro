@@ -1,0 +1,17 @@
+{
+  "name": "super-astro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@million/lint": "1.0.14",
+    "next": "15.3.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
+
+

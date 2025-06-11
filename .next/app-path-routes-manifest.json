@@ -1,0 +1,16 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/api/excel/route": "/api/excel",
+  "/api/data/route": "/api/data",
+  "/_not-found/page": "/_not-found",
+  "/pqr-consulta/page": "/pqr-consulta",
+  "/pqr/page": "/pqr",
+  "/page": "/",
+  "/cobros-premio/page": "/cobros-premio",
+  "/como-se-juega/page": "/como-se-juega",
+  "/juega-en-linea/page": "/juega-en-linea",
+  "/resultados/page": "/resultados",
+  "/preguntas-frecuentes/page": "/preguntas-frecuentes",
+  "/juego-responsable/page": "/juego-responsable",
+  "/simulador-de-premios/page": "/simulador-de-premios"
+}

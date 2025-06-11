@@ -1,0 +1,1 @@
+.p-not-found{display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:cover}@media(max-width:568px){.p-not-found{padding:0 1rem;height:25.75rem}}.p-not-found h1{font-size:6.25rem;margin-bottom:0}@media(max-width:568px){.p-not-found h1{font-size:3.75rem}}
